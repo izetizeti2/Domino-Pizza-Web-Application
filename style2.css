@@ -1,0 +1,40 @@
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal 1.75em/1;
+    font-size: large;
+    font-weight: bold;
+    
+    
+    
+}
+.header-backgraund{
+    background-color: #006491;
+}
+#paragrafi1{
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.butonat{
+  font-weight: bold;
+}
+.hapesira-e-butonit{
+  padding-right: 1%;
+}
+a{
+  color: black;
+  font-weight: bold;
+}
+a:hover{
+  color: black;
+}
+
+.foteri{
+  background-color: rgba(0, 0, 0, 0.08);
+  color: grey;
+}

@@ -1,0 +1,33 @@
+CREATE TABLE regjistrohu (
+    emri VARCHAR(50),
+    mbiemri VARCHAR(50),
+    email VARCHAR(100),
+    password VARCHAR(100)
+);
+
+CREATE TABLE porosit (
+    useri VARCHAR(50),
+    produkti VARCHAR(100),
+    qmimi INT,
+    sasia INT,
+    id INT PRIMARY KEY,
+    totali INT
+);
+
+CREATE TABLE menu (
+    emri VARCHAR(50),
+    qmimi INT
+);
+
+CREATE TABLE aplikimi (
+    pozita VARCHAR(50),
+    emri VARCHAR(50),
+    mbiemri VARCHAR(50),
+    vendlindja VARCHAR(50),
+    ditelindja DATE,
+    adresa VARCHAR(50),
+    kodipostar INT,
+    qyteti VARCHAR(50),
+    telefoni INT,
+    email VARCHAR(100)
+);
